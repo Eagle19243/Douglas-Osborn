@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255379C87AE48897A0ED66B8 /* libPods-Douglas OsbornTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9488A9D82861E0F5C97CCDB2 /* libPods-Douglas OsbornTests.a */; };
+		52E62BDF04C2CA43FD4FBC7A /* libPods-Douglas Osborn Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75010FD9229905A4F5CA1D61 /* libPods-Douglas Osborn Extension.a */; };
+		5B4ABF06DE0482010996FEAA /* libPods-Douglas OsbornUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0B30B5CD6D794E60D60B9E /* libPods-Douglas OsbornUITests.a */; };
+		D9F43D821EF3A2B40002EDA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F43D811EF3A2B40002EDA2 /* AppDelegate.m */; };
+		D9F43D851EF3A2B40002EDA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F43D841EF3A2B40002EDA2 /* main.m */; };
+		D9F43D881EF3A2B40002EDA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F43D871EF3A2B40002EDA2 /* ViewController.m */; };
+		D9F43D8A1EF3A2B40002EDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F43D891EF3A2B40002EDA2 /* Assets.xcassets */; };
+		D9F43D8D1EF3A2B40002EDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F43D8B1EF3A2B40002EDA2 /* Main.storyboard */; };
+		D9F43D981EF3A2B40002EDA2 /* Douglas_OsbornTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F43D971EF3A2B40002EDA2 /* Douglas_OsbornTests.m */; };
+		D9F43DA31EF3A2B40002EDA2 /* Douglas_OsbornUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F43DA21EF3A2B40002EDA2 /* Douglas_OsbornUITests.m */; };
+		D9F43DB71EF3A2E30002EDA2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F43DB61EF3A2E30002EDA2 /* Cocoa.framework */; };
+		D9F43DBD1EF3A2E30002EDA2 /* SafariExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F43DBC1EF3A2E30002EDA2 /* SafariExtensionHandler.m */; };
+		D9F43DC01EF3A2E30002EDA2 /* SafariExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F43DBF1EF3A2E30002EDA2 /* SafariExtensionViewController.m */; };
+		D9F43DC31EF3A2E30002EDA2 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F43DC11EF3A2E30002EDA2 /* SafariExtensionViewController.xib */; };
+		D9F43DC61EF3A2E30002EDA2 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D9F43DC51EF3A2E30002EDA2 /* script.js */; };
+		D9F43DC81EF3A2E30002EDA2 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D9F43DC71EF3A2E30002EDA2 /* ToolbarItemIcon.pdf */; };
+		D9F43DCB1EF3A2E30002EDA2 /* Douglas Osborn Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D9F43DB41EF3A2E30002EDA2 /* Douglas Osborn Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD0F977F92B97BD2BDE6FF4E /* libPods-Douglas Osborn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C08F545CB0F8B235D6F00E5 /* libPods-Douglas Osborn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9F43D941EF3A2B40002EDA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F43D751EF3A2B40002EDA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F43D7C1EF3A2B40002EDA2;
+			remoteInfo = "Douglas Osborn";
+		};
+		D9F43D9F1EF3A2B40002EDA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F43D751EF3A2B40002EDA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F43D7C1EF3A2B40002EDA2;
+			remoteInfo = "Douglas Osborn";
+		};
+		D9F43DC91EF3A2E30002EDA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F43D751EF3A2B40002EDA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F43DB31EF3A2E30002EDA2;
+			remoteInfo = "Douglas Osborn Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9F43DCF1EF3A2E30002EDA2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D9F43DCB1EF3A2E30002EDA2 /* Douglas Osborn Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05E084097F88B908D564D4DA /* Pods-Douglas OsbornUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douglas OsbornUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douglas OsbornUITests/Pods-Douglas OsbornUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A0B30B5CD6D794E60D60B9E /* libPods-Douglas OsbornUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douglas OsbornUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C08F545CB0F8B235D6F00E5 /* libPods-Douglas Osborn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douglas Osborn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E04A9118790D3195295E209 /* Pods-Douglas Osborn Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douglas Osborn Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douglas Osborn Extension/Pods-Douglas Osborn Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		5AEA34FB2B08224AA8EA1BA0 /* Pods-Douglas Osborn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douglas Osborn.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douglas Osborn/Pods-Douglas Osborn.release.xcconfig"; sourceTree = "<group>"; };
+		75010FD9229905A4F5CA1D61 /* libPods-Douglas Osborn Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douglas Osborn Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1BA1442819ED862EB2BC0E /* Pods-Douglas OsbornTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douglas OsbornTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douglas OsbornTests/Pods-Douglas OsbornTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC320819A749BC9E2B179A7 /* Pods-Douglas OsbornUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douglas OsbornUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douglas OsbornUITests/Pods-Douglas OsbornUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9225E6B87A0609F6A92517EC /* Pods-Douglas OsbornTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douglas OsbornTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douglas OsbornTests/Pods-Douglas OsbornTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9488A9D82861E0F5C97CCDB2 /* libPods-Douglas OsbornTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douglas OsbornTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E90BF38CB39F555C32D8F5 /* Pods-Douglas Osborn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douglas Osborn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douglas Osborn/Pods-Douglas Osborn.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE8C31F740BAA5387BD7EEE /* Pods-Douglas Osborn Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douglas Osborn Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douglas Osborn Extension/Pods-Douglas Osborn Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D91401451EF429AF009F4231 /* Douglas Osborn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Douglas Osborn.entitlements"; sourceTree = "<group>"; };
+		D9F43D7D1EF3A2B40002EDA2 /* Douglas Osborn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douglas Osborn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F43D801EF3A2B40002EDA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9F43D811EF3A2B40002EDA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9F43D841EF3A2B40002EDA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9F43D861EF3A2B40002EDA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9F43D871EF3A2B40002EDA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9F43D891EF3A2B40002EDA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9F43D8C1EF3A2B40002EDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9F43D8E1EF3A2B40002EDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F43D931EF3A2B40002EDA2 /* Douglas OsbornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Douglas OsbornTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F43D971EF3A2B40002EDA2 /* Douglas_OsbornTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Douglas_OsbornTests.m; sourceTree = "<group>"; };
+		D9F43D991EF3A2B40002EDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F43D9E1EF3A2B40002EDA2 /* Douglas OsbornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Douglas OsbornUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F43DA21EF3A2B40002EDA2 /* Douglas_OsbornUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Douglas_OsbornUITests.m; sourceTree = "<group>"; };
+		D9F43DA41EF3A2B40002EDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F43DB41EF3A2E30002EDA2 /* Douglas Osborn Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Douglas Osborn Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F43DB61EF3A2E30002EDA2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D9F43DBA1EF3A2E30002EDA2 /* Douglas_Osborn_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Douglas_Osborn_Extension.entitlements; sourceTree = "<group>"; };
+		D9F43DBB1EF3A2E30002EDA2 /* SafariExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionHandler.h; sourceTree = "<group>"; };
+		D9F43DBC1EF3A2E30002EDA2 /* SafariExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionHandler.m; sourceTree = "<group>"; };
+		D9F43DBE1EF3A2E30002EDA2 /* SafariExtensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionViewController.h; sourceTree = "<group>"; };
+		D9F43DBF1EF3A2E30002EDA2 /* SafariExtensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionViewController.m; sourceTree = "<group>"; };
+		D9F43DC21EF3A2E30002EDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		D9F43DC41EF3A2E30002EDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F43DC51EF3A2E30002EDA2 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		D9F43DC71EF3A2E30002EDA2 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9F43D7A1EF3A2B40002EDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0F977F92B97BD2BDE6FF4E /* libPods-Douglas Osborn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43D901EF3A2B40002EDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255379C87AE48897A0ED66B8 /* libPods-Douglas OsbornTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43D9B1EF3A2B40002EDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4ABF06DE0482010996FEAA /* libPods-Douglas OsbornUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43DB11EF3A2E30002EDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F43DB71EF3A2E30002EDA2 /* Cocoa.framework in Frameworks */,
+				52E62BDF04C2CA43FD4FBC7A /* libPods-Douglas Osborn Extension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B966C31062C062B29E996D36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98E90BF38CB39F555C32D8F5 /* Pods-Douglas Osborn.debug.xcconfig */,
+				5AEA34FB2B08224AA8EA1BA0 /* Pods-Douglas Osborn.release.xcconfig */,
+				1E04A9118790D3195295E209 /* Pods-Douglas Osborn Extension.debug.xcconfig */,
+				BCE8C31F740BAA5387BD7EEE /* Pods-Douglas Osborn Extension.release.xcconfig */,
+				9225E6B87A0609F6A92517EC /* Pods-Douglas OsbornTests.debug.xcconfig */,
+				7F1BA1442819ED862EB2BC0E /* Pods-Douglas OsbornTests.release.xcconfig */,
+				8EC320819A749BC9E2B179A7 /* Pods-Douglas OsbornUITests.debug.xcconfig */,
+				05E084097F88B908D564D4DA /* Pods-Douglas OsbornUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9F43D741EF3A2B40002EDA2 = {
+			isa = PBXGroup;
+			children = (
+				D9F43D7F1EF3A2B40002EDA2 /* Douglas Osborn */,
+				D9F43D961EF3A2B40002EDA2 /* Douglas OsbornTests */,
+				D9F43DA11EF3A2B40002EDA2 /* Douglas OsbornUITests */,
+				D9F43DB81EF3A2E30002EDA2 /* Douglas Osborn Extension */,
+				D9F43DB51EF3A2E30002EDA2 /* Frameworks */,
+				D9F43D7E1EF3A2B40002EDA2 /* Products */,
+				B966C31062C062B29E996D36 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F43D7E1EF3A2B40002EDA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F43D7D1EF3A2B40002EDA2 /* Douglas Osborn.app */,
+				D9F43D931EF3A2B40002EDA2 /* Douglas OsbornTests.xctest */,
+				D9F43D9E1EF3A2B40002EDA2 /* Douglas OsbornUITests.xctest */,
+				D9F43DB41EF3A2E30002EDA2 /* Douglas Osborn Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F43D7F1EF3A2B40002EDA2 /* Douglas Osborn */ = {
+			isa = PBXGroup;
+			children = (
+				D91401451EF429AF009F4231 /* Douglas Osborn.entitlements */,
+				D9F43D801EF3A2B40002EDA2 /* AppDelegate.h */,
+				D9F43D811EF3A2B40002EDA2 /* AppDelegate.m */,
+				D9F43D861EF3A2B40002EDA2 /* ViewController.h */,
+				D9F43D871EF3A2B40002EDA2 /* ViewController.m */,
+				D9F43D891EF3A2B40002EDA2 /* Assets.xcassets */,
+				D9F43D8B1EF3A2B40002EDA2 /* Main.storyboard */,
+				D9F43D8E1EF3A2B40002EDA2 /* Info.plist */,
+				D9F43D831EF3A2B40002EDA2 /* Supporting Files */,
+			);
+			path = "Douglas Osborn";
+			sourceTree = "<group>";
+		};
+		D9F43D831EF3A2B40002EDA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9F43D841EF3A2B40002EDA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9F43D961EF3A2B40002EDA2 /* Douglas OsbornTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F43D971EF3A2B40002EDA2 /* Douglas_OsbornTests.m */,
+				D9F43D991EF3A2B40002EDA2 /* Info.plist */,
+			);
+			path = "Douglas OsbornTests";
+			sourceTree = "<group>";
+		};
+		D9F43DA11EF3A2B40002EDA2 /* Douglas OsbornUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F43DA21EF3A2B40002EDA2 /* Douglas_OsbornUITests.m */,
+				D9F43DA41EF3A2B40002EDA2 /* Info.plist */,
+			);
+			path = "Douglas OsbornUITests";
+			sourceTree = "<group>";
+		};
+		D9F43DB51EF3A2E30002EDA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F43DB61EF3A2E30002EDA2 /* Cocoa.framework */,
+				1C08F545CB0F8B235D6F00E5 /* libPods-Douglas Osborn.a */,
+				75010FD9229905A4F5CA1D61 /* libPods-Douglas Osborn Extension.a */,
+				9488A9D82861E0F5C97CCDB2 /* libPods-Douglas OsbornTests.a */,
+				1A0B30B5CD6D794E60D60B9E /* libPods-Douglas OsbornUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9F43DB81EF3A2E30002EDA2 /* Douglas Osborn Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D9F43DBB1EF3A2E30002EDA2 /* SafariExtensionHandler.h */,
+				D9F43DBC1EF3A2E30002EDA2 /* SafariExtensionHandler.m */,
+				D9F43DBE1EF3A2E30002EDA2 /* SafariExtensionViewController.h */,
+				D9F43DBF1EF3A2E30002EDA2 /* SafariExtensionViewController.m */,
+				D9F43DC11EF3A2E30002EDA2 /* SafariExtensionViewController.xib */,
+				D9F43DC41EF3A2E30002EDA2 /* Info.plist */,
+				D9F43DC51EF3A2E30002EDA2 /* script.js */,
+				D9F43DC71EF3A2E30002EDA2 /* ToolbarItemIcon.pdf */,
+				D9F43DB91EF3A2E30002EDA2 /* Supporting Files */,
+			);
+			path = "Douglas Osborn Extension";
+			sourceTree = "<group>";
+		};
+		D9F43DB91EF3A2E30002EDA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9F43DBA1EF3A2E30002EDA2 /* Douglas_Osborn_Extension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9F43D7C1EF3A2B40002EDA2 /* Douglas Osborn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F43DA71EF3A2B40002EDA2 /* Build configuration list for PBXNativeTarget "Douglas Osborn" */;
+			buildPhases = (
+				52083B3FA71CA3BF0AC1096D /* [CP] Check Pods Manifest.lock */,
+				D9F43D791EF3A2B40002EDA2 /* Sources */,
+				D9F43D7A1EF3A2B40002EDA2 /* Frameworks */,
+				D9F43D7B1EF3A2B40002EDA2 /* Resources */,
+				D9F43DCF1EF3A2E30002EDA2 /* Embed App Extensions */,
+				CEB31B9D4C5F6E38BBA774FD /* [CP] Embed Pods Frameworks */,
+				FC14F244C4D33485DC396A91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F43DCA1EF3A2E30002EDA2 /* PBXTargetDependency */,
+			);
+			name = "Douglas Osborn";
+			productName = "Douglas Osborn";
+			productReference = D9F43D7D1EF3A2B40002EDA2 /* Douglas Osborn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9F43D921EF3A2B40002EDA2 /* Douglas OsbornTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F43DAA1EF3A2B40002EDA2 /* Build configuration list for PBXNativeTarget "Douglas OsbornTests" */;
+			buildPhases = (
+				0C94408DD1CCF5FC06EE4735 /* [CP] Check Pods Manifest.lock */,
+				D9F43D8F1EF3A2B40002EDA2 /* Sources */,
+				D9F43D901EF3A2B40002EDA2 /* Frameworks */,
+				D9F43D911EF3A2B40002EDA2 /* Resources */,
+				F4EF1B28D0FAB21AD809CFA3 /* [CP] Embed Pods Frameworks */,
+				D9E5475AA623A00C3E84285F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F43D951EF3A2B40002EDA2 /* PBXTargetDependency */,
+			);
+			name = "Douglas OsbornTests";
+			productName = "Douglas OsbornTests";
+			productReference = D9F43D931EF3A2B40002EDA2 /* Douglas OsbornTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9F43D9D1EF3A2B40002EDA2 /* Douglas OsbornUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F43DAD1EF3A2B40002EDA2 /* Build configuration list for PBXNativeTarget "Douglas OsbornUITests" */;
+			buildPhases = (
+				A2ABD0922222C8F025FF7A8B /* [CP] Check Pods Manifest.lock */,
+				D9F43D9A1EF3A2B40002EDA2 /* Sources */,
+				D9F43D9B1EF3A2B40002EDA2 /* Frameworks */,
+				D9F43D9C1EF3A2B40002EDA2 /* Resources */,
+				294FBB38E9071283C87E73A6 /* [CP] Embed Pods Frameworks */,
+				C47623FA9CF3DD18297A47DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F43DA01EF3A2B40002EDA2 /* PBXTargetDependency */,
+			);
+			name = "Douglas OsbornUITests";
+			productName = "Douglas OsbornUITests";
+			productReference = D9F43D9E1EF3A2B40002EDA2 /* Douglas OsbornUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D9F43DB31EF3A2E30002EDA2 /* Douglas Osborn Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F43DCC1EF3A2E30002EDA2 /* Build configuration list for PBXNativeTarget "Douglas Osborn Extension" */;
+			buildPhases = (
+				897D5418E047387AC146B6C5 /* [CP] Check Pods Manifest.lock */,
+				D9F43DB01EF3A2E30002EDA2 /* Sources */,
+				D9F43DB11EF3A2E30002EDA2 /* Frameworks */,
+				D9F43DB21EF3A2E30002EDA2 /* Resources */,
+				EEC76D614E93E95AE42C036B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Douglas Osborn Extension";
+			productName = "Douglas Osborn Extension";
+			productReference = D9F43DB41EF3A2E30002EDA2 /* Douglas Osborn Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F43D751EF3A2B40002EDA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Douglas-Osborn";
+				TargetAttributes = {
+					D9F43D7C1EF3A2B40002EDA2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					D9F43D921EF3A2B40002EDA2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9F43D7C1EF3A2B40002EDA2;
+					};
+					D9F43D9D1EF3A2B40002EDA2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9F43D7C1EF3A2B40002EDA2;
+					};
+					D9F43DB31EF3A2E30002EDA2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D9F43D781EF3A2B40002EDA2 /* Build configuration list for PBXProject "Douglas Osborn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9F43D741EF3A2B40002EDA2;
+			productRefGroup = D9F43D7E1EF3A2B40002EDA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F43D7C1EF3A2B40002EDA2 /* Douglas Osborn */,
+				D9F43D921EF3A2B40002EDA2 /* Douglas OsbornTests */,
+				D9F43D9D1EF3A2B40002EDA2 /* Douglas OsbornUITests */,
+				D9F43DB31EF3A2E30002EDA2 /* Douglas Osborn Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9F43D7B1EF3A2B40002EDA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F43D8A1EF3A2B40002EDA2 /* Assets.xcassets in Resources */,
+				D9F43D8D1EF3A2B40002EDA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43D911EF3A2B40002EDA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43D9C1EF3A2B40002EDA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43DB21EF3A2E30002EDA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F43DC81EF3A2E30002EDA2 /* ToolbarItemIcon.pdf in Resources */,
+				D9F43DC31EF3A2E30002EDA2 /* SafariExtensionViewController.xib in Resources */,
+				D9F43DC61EF3A2E30002EDA2 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C94408DD1CCF5FC06EE4735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		294FBB38E9071283C87E73A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douglas OsbornUITests/Pods-Douglas OsbornUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52083B3FA71CA3BF0AC1096D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		897D5418E047387AC146B6C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2ABD0922222C8F025FF7A8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C47623FA9CF3DD18297A47DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douglas OsbornUITests/Pods-Douglas OsbornUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB31B9D4C5F6E38BBA774FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douglas Osborn/Pods-Douglas Osborn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E5475AA623A00C3E84285F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douglas OsbornTests/Pods-Douglas OsbornTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC76D614E93E95AE42C036B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douglas Osborn Extension/Pods-Douglas Osborn Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4EF1B28D0FAB21AD809CFA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douglas OsbornTests/Pods-Douglas OsbornTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC14F244C4D33485DC396A91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douglas Osborn/Pods-Douglas Osborn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9F43D791EF3A2B40002EDA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F43D881EF3A2B40002EDA2 /* ViewController.m in Sources */,
+				D9F43D851EF3A2B40002EDA2 /* main.m in Sources */,
+				D9F43D821EF3A2B40002EDA2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43D8F1EF3A2B40002EDA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F43D981EF3A2B40002EDA2 /* Douglas_OsbornTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43D9A1EF3A2B40002EDA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F43DA31EF3A2B40002EDA2 /* Douglas_OsbornUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F43DB01EF3A2E30002EDA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F43DC01EF3A2E30002EDA2 /* SafariExtensionViewController.m in Sources */,
+				D9F43DBD1EF3A2E30002EDA2 /* SafariExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9F43D951EF3A2B40002EDA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9F43D7C1EF3A2B40002EDA2 /* Douglas Osborn */;
+			targetProxy = D9F43D941EF3A2B40002EDA2 /* PBXContainerItemProxy */;
+		};
+		D9F43DA01EF3A2B40002EDA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9F43D7C1EF3A2B40002EDA2 /* Douglas Osborn */;
+			targetProxy = D9F43D9F1EF3A2B40002EDA2 /* PBXContainerItemProxy */;
+		};
+		D9F43DCA1EF3A2E30002EDA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9F43DB31EF3A2E30002EDA2 /* Douglas Osborn Extension */;
+			targetProxy = D9F43DC91EF3A2E30002EDA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9F43D8B1EF3A2B40002EDA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F43D8C1EF3A2B40002EDA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9F43DC11EF3A2E30002EDA2 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F43DC21EF3A2E30002EDA2 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9F43DA51EF3A2B40002EDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9F43DA61EF3A2B40002EDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9F43DA81EF3A2B40002EDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E90BF38CB39F555C32D8F5 /* Pods-Douglas Osborn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Douglas Osborn/Douglas Osborn.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Douglas Osborn/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charles.org.Douglas-Osborn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9F43DA91EF3A2B40002EDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEA34FB2B08224AA8EA1BA0 /* Pods-Douglas Osborn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Douglas Osborn/Douglas Osborn.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Douglas Osborn/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charles.org.Douglas-Osborn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9F43DAB1EF3A2B40002EDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9225E6B87A0609F6A92517EC /* Pods-Douglas OsbornTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Douglas OsbornTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charles.org.Douglas-OsbornTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Douglas Osborn.app/Contents/MacOS/Douglas Osborn";
+			};
+			name = Debug;
+		};
+		D9F43DAC1EF3A2B40002EDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1BA1442819ED862EB2BC0E /* Pods-Douglas OsbornTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Douglas OsbornTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charles.org.Douglas-OsbornTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Douglas Osborn.app/Contents/MacOS/Douglas Osborn";
+			};
+			name = Release;
+		};
+		D9F43DAE1EF3A2B40002EDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC320819A749BC9E2B179A7 /* Pods-Douglas OsbornUITests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Douglas OsbornUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charles.org.Douglas-OsbornUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Douglas Osborn";
+			};
+			name = Debug;
+		};
+		D9F43DAF1EF3A2B40002EDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E084097F88B908D564D4DA /* Pods-Douglas OsbornUITests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Douglas OsbornUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charles.org.Douglas-OsbornUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Douglas Osborn";
+			};
+			name = Release;
+		};
+		D9F43DCD1EF3A2E30002EDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E04A9118790D3195295E209 /* Pods-Douglas Osborn Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Douglas Osborn Extension/Douglas_Osborn_Extension.entitlements";
+				INFOPLIST_FILE = "Douglas Osborn Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charles.org.Douglas-Osborn.SafariExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9F43DCE1EF3A2E30002EDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE8C31F740BAA5387BD7EEE /* Pods-Douglas Osborn Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Douglas Osborn Extension/Douglas_Osborn_Extension.entitlements";
+				INFOPLIST_FILE = "Douglas Osborn Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charles.org.Douglas-Osborn.SafariExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9F43D781EF3A2B40002EDA2 /* Build configuration list for PBXProject "Douglas Osborn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F43DA51EF3A2B40002EDA2 /* Debug */,
+				D9F43DA61EF3A2B40002EDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F43DA71EF3A2B40002EDA2 /* Build configuration list for PBXNativeTarget "Douglas Osborn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F43DA81EF3A2B40002EDA2 /* Debug */,
+				D9F43DA91EF3A2B40002EDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F43DAA1EF3A2B40002EDA2 /* Build configuration list for PBXNativeTarget "Douglas OsbornTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F43DAB1EF3A2B40002EDA2 /* Debug */,
+				D9F43DAC1EF3A2B40002EDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F43DAD1EF3A2B40002EDA2 /* Build configuration list for PBXNativeTarget "Douglas OsbornUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F43DAE1EF3A2B40002EDA2 /* Debug */,
+				D9F43DAF1EF3A2B40002EDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F43DCC1EF3A2E30002EDA2 /* Build configuration list for PBXNativeTarget "Douglas Osborn Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F43DCD1EF3A2E30002EDA2 /* Debug */,
+				D9F43DCE1EF3A2E30002EDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F43D751EF3A2B40002EDA2 /* Project object */;
+}
